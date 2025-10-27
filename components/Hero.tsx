@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import profileImage from '../img/profile.png';
 
 const Hero: React.FC = () => {
     const scrollToContact = () => {
@@ -14,9 +15,9 @@ const Hero: React.FC = () => {
       <div className="md:w-1/2 flex justify-center md:justify-end md:pr-16 mb-8 md:mb-0">
          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-cyan-500/30 border-4 border-cyan-400">
             <img 
-                src="https://i.ibb.co/L5hK1bH/profile-pic.png" 
-                alt="Joel Scaria Justine" 
-                className="w-full h-full object-cover"
+              src={profileImage} 
+              alt="Joel Scaria Justine" 
+              className="w-full h-full object-cover"
             />
         </div>
       </div>
