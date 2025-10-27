@@ -25,12 +25,12 @@ const skillsData: { category: string; skills: Skill[] }[] = [
     {
         category: 'Cybersecurity Tools',
         skills: [
-            // ✅ Fixed icons with reliable sources
+            // ✅ Local images from public/icons/
             { 
                 name: 'Nmap', 
                 icon: (
                     <img 
-                        src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Nmap-logo.png" 
+                        src="/icons/nmap.png" 
                         alt="Nmap" 
                         className="w-6 h-6 object-contain" 
                     />
@@ -41,7 +41,7 @@ const skillsData: { category: string; skills: Skill[] }[] = [
                 name: 'Nessus', 
                 icon: (
                     <img 
-                        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tenable_Nessus_logo.svg" 
+                        src="/icons/nessus.png" 
                         alt="Nessus" 
                         className="w-6 h-6 object-contain" 
                     />
