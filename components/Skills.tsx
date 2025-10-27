@@ -5,6 +5,10 @@ import {
 } from 'react-icons/fa';
 import { SiDjango, SiWireshark, SiKalilinux, SiBurpsuite } from 'react-icons/si';
 
+// ✅ Import your local images
+import nmapLogo from '../img/nmap.png';
+import nessusLogo from '../img/nessus.png';
+
 interface Skill {
     name: string;
     icon: React.ReactNode;
@@ -25,12 +29,12 @@ const skillsData: { category: string; skills: Skill[] }[] = [
     {
         category: 'Cybersecurity Tools',
         skills: [
-            // ✅ Local images from public/icons/
+            // ✅ Use imported local images
             { 
                 name: 'Nmap', 
                 icon: (
                     <img 
-                        src="../img/nmap.png" 
+                        src={nmapLogo} 
                         alt="Nmap" 
                         className="w-6 h-6 object-contain" 
                     />
@@ -41,7 +45,7 @@ const skillsData: { category: string; skills: Skill[] }[] = [
                 name: 'Nessus', 
                 icon: (
                     <img 
-                        src="../img/nessus.png" 
+                        src={nessusLogo} 
                         alt="Nessus" 
                         className="w-6 h-6 object-contain" 
                     />
