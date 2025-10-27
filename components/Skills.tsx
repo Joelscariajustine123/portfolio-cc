@@ -30,7 +30,7 @@ const skillsData: { category: string; skills: Skill[] }[] = [
                 name: 'Nmap', 
                 icon: (
                     <img 
-                        src="/icons/nmap.png" 
+                        src="/img/nmap.png" 
                         alt="Nmap" 
                         className="w-6 h-6 object-contain" 
                     />
@@ -41,7 +41,7 @@ const skillsData: { category: string; skills: Skill[] }[] = [
                 name: 'Nessus', 
                 icon: (
                     <img 
-                        src="/icons/nessus.png" 
+                        src="/img/nessus.png" 
                         alt="Nessus" 
                         className="w-6 h-6 object-contain" 
                     />
