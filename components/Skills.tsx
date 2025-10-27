@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaLinux, FaWindows, FaDatabase } from 'react-icons/fa';
-// Fix: Removed SiNmap as it is not an exported member of 'react-icons/si'.
+import { 
+    FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, 
+    FaGitAlt, FaGithub, FaLinux, FaWindows, FaDatabase 
+} from 'react-icons/fa';
 import { SiDjango, SiWireshark, SiKalilinux, SiBurpsuite } from 'react-icons/si';
 
 interface Skill {
@@ -23,10 +25,28 @@ const skillsData: { category: string; skills: Skill[] }[] = [
     {
         category: 'Cybersecurity Tools',
         skills: [
-            // Fix: Replaced missing SiNmap icon with an external image and adjusted icon sizes for visual consistency.
-            { name: 'Nmap', icon: <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Nmap-logo.png" alt="Nmap" className="w-6 h-6"/> },
+            // ✅ Fixed icons with reliable sources
+            { 
+                name: 'Nmap', 
+                icon: (
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Nmap-logo.png" 
+                        alt="Nmap" 
+                        className="w-6 h-6 object-contain" 
+                    />
+                )
+            },
             { name: 'Wireshark', icon: <SiWireshark className="text-blue-500" /> },
-            { name: 'Nessus', icon: <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tenable_Nessus_logo.svg" alt="Nessus" className="w-6 h-6"/> },
+            { 
+                name: 'Nessus', 
+                icon: (
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tenable_Nessus_logo.svg" 
+                        alt="Nessus" 
+                        className="w-6 h-6 object-contain" 
+                    />
+                )
+            },
             { name: 'Burp Suite', icon: <SiBurpsuite className="text-orange-500" /> },
             { name: 'Kali Linux', icon: <SiKalilinux className="text-blue-600" /> },
         ],
@@ -58,7 +78,9 @@ const Skills: React.FC = () => {
             <div className="space-y-12">
                 {skillsData.map((categoryItem) => (
                     <div key={categoryItem.category}>
-                        <h3 className="text-2xl font-semibold text-cyan-400 mb-6 text-center md:text-left">{categoryItem.category}</h3>
+                        <h3 className="text-2xl font-semibold text-cyan-400 mb-6 text-center md:text-left">
+                            {categoryItem.category}
+                        </h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                             {categoryItem.skills.map((skill) => (
                                 <SkillCard key={skill.name} skill={skill} />
