@@ -24,9 +24,9 @@ const skillsData: { category: string; skills: Skill[] }[] = [
         category: 'Cybersecurity Tools',
         skills: [
             // Fix: Replaced missing SiNmap icon with an external image and adjusted icon sizes for visual consistency.
-            { name: 'Nmap', icon: <img src="https://img.icons8.com/fluency/48/nmap.png" alt="Nmap" className="w-6 h-6"/> },
+            { name: 'Nmap', icon: <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Nmap-logo.png" alt="Nmap" className="w-6 h-6"/> },
             { name: 'Wireshark', icon: <SiWireshark className="text-blue-500" /> },
-            { name: 'Nessus', icon: <img src="https://img.icons8.com/color/48/000000/nessus.png" alt="Nessus" className="w-6 h-6"/> },
+            { name: 'Nessus', icon: <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tenable_Nessus_logo.svg" alt="Nessus" className="w-6 h-6"/> },
             { name: 'Burp Suite', icon: <SiBurpsuite className="text-orange-500" /> },
             { name: 'Kali Linux', icon: <SiKalilinux className="text-blue-600" /> },
         ],
