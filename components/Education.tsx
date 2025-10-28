@@ -28,7 +28,7 @@ const Education: React.FC = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold text-white">Cybersecurity and Ethical Hacking</h3>
-            <p className="font-medium text-slate-300">GTEC Kannur</p>
+            <p className="font-medium text-slate-300">Apponix Technologies Rajajinagar,Bangalore</p>
             <p className="text-sm text-slate-400">July–September 2024</p>
           </div>
         </div>

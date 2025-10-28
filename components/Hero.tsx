@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           Joel Scaria Justine
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-cyan-400 mb-4">
-          Python Full Stack Developer
+          Python Full Stack Developer & Cyber Security Enthusiast
         </h2>
         <p className="text-lg text-slate-400 max-w-xl mx-auto md:mx-0 mb-6">
           A security-conscious developer passionate about building robust and secure web applications with Python and Django.

@@ -28,6 +28,30 @@ const Experience: React.FC = () => {
           </div>
         </div>
       </div>
+
+       <div className="max-w-4xl mx-auto">
+        <div className="relative border-l-2 border-cyan-500 pl-10">
+          {/* Timeline dot */}
+          <div className="absolute -left-[11px] top-1 w-6 h-6 bg-slate-900 border-2 border-cyan-500 rounded-full"></div>
+
+          <div className="bg-slate-800/50 p-6 rounded-xl shadow-lg border border-slate-700 mb-8">
+            <div className="flex justify-between items-start mb-2">
+              <div>
+                <h3 className="text-2xl font-bold text-cyan-400">Python Full Stack Internship</h3>
+                <p className="text-lg font-medium text-slate-300">Inmakes Learning Hub, Kochi, Kerala</p>
+              </div>
+              <span className="text-sm font-semibold text-slate-400 bg-slate-700 px-3 py-1 rounded-full">July 2024 – Present</span>
+            </div>
+            <ul className="list-disc list-inside text-slate-300 space-y-2 mt-4">
+              <li>Hands-on training in Python, Django, HTML, CSS, JavaScript, and MySQL.</li>
+              <li>Developed full-stack web applications integrating front-end and back-end systems.</li>
+              <li>Implemented CRUD operations, authentication, and responsive UI designs.</li>
+              <li>Used Git and GitHub for version control and collaborative development.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 };
