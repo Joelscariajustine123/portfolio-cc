@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
                 <h3 className="text-2xl font-bold text-cyan-400">Python Full Stack Instructor / Trainer</h3>
                 <p className="text-lg font-medium text-slate-300">GTEC Computer Education Center, Kannur</p>
               </div>
-              <span className="text-sm font-semibold text-slate-400 bg-slate-700 px-3 py-1 rounded-full">July 2024 – Present</span>
+              <span className="text-sm font-semibold text-slate-400 bg-slate-700 px-3 py-1 rounded-full">Novemb 2024 – Present</span>
             </div>
             <ul className="list-disc list-inside text-slate-300 space-y-2 mt-4">
               <li>Conducts comprehensive training sessions on Python, Django, and modern web development fundamentals.</li>
@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
                 <h3 className="text-2xl font-bold text-cyan-400">Python Full Stack Internship</h3>
                 <p className="text-lg font-medium text-slate-300">Inmakes Learning Hub, Kochi, Kerala</p>
               </div>
-              <span className="text-sm font-semibold text-slate-400 bg-slate-700 px-3 py-1 rounded-full">July 2024 – Present</span>
+              <span className="text-sm font-semibold text-slate-400 bg-slate-700 px-3 py-1 rounded-full">July 2024 – November 2024</span>
             </div>
             <ul className="list-disc list-inside text-slate-300 space-y-2 mt-4">
               <li>Hands-on training in Python, Django, HTML, CSS, JavaScript, and MySQL.</li>
